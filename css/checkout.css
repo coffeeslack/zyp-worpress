@@ -1,0 +1,134 @@
+.greyText {
+  color: gray !important;
+}
+.checkoutSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 !important;
+  padding: 20px 20px 100px !important;
+}
+.checkoutSection .paymentForm {
+  border: 2px solid lightgray;
+  padding: 20px;
+}
+.bottomBorder {
+  width: 30px;
+  background-color: #e38420;
+  height: 1.5px;
+  margin-top: 5px;
+}
+.paymentTypes {
+  margin-top: 30px;
+}
+.paymentTypes input {
+  display: none;
+}
+.paymentTypes input ~ label {
+  display: block;
+}
+.paymentType {
+  border: 2px solid lightgray;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+.paymentTypes input:checked ~ label .paymentType {
+  background-color: #0d6dff;
+  color: white;
+  border-color: #0d6dff;
+}
+.paymentType:hover {
+  text-decoration: none;
+  color: #0d6dff;
+  border-color: #0d6dff;
+}
+.paymentUserDetails {
+  margin-top: 40px;
+}
+.inputRow {
+  margin-top: 30px;
+}
+.inputRow .inputLabel {
+  margin-bottom: 5px;
+}
+.inputRow input {
+  width: 100%;
+  padding: 10px;
+}
+.inputRow input {
+  outline-color: lightgray;
+}
+.inputRow input:focus {
+  outline-color: #0d6dff;
+}
+.checkoutSection .orderSummarySection {
+  width: initial !important;
+}
+.checkoutSection .orderSummaryContainer {
+  border: 2px solid lightgray;
+  padding: 0px;
+}
+.checkoutSection .orderSummary {
+  padding: 20px;
+}
+.summaryPackageName {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.summaryPackageDescription {
+  margin-top: 30px;
+  color: gray;
+  font-size: 15px;
+}
+.orderSummaryDate {
+  background-color: lightgray;
+  padding: 20px 50px;
+  font-family: mainFont;
+  /* position: absolute;
+  bottom: 0;
+  width: 100%; */
+}
+.orderSummarySection .purchaseBtn {
+  margin-top: 30px !important;
+  display: flex;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+/* Tab screen */
+@media screen and (min-width: 578px) {
+  .checkoutSection {
+    padding: 50px 100px !important;
+  }
+}
+
+/* Pc screen */
+@media screen and (min-width: 1025px) {
+  .checkoutSection {
+    padding: 25px 100px 50px !important;
+  }
+  .checkoutSection .paymentForm {
+    padding: 50px;
+  }
+  .checkoutSection .orderSummary {
+    padding: 50px;
+  }
+  .orderSummarySection .purchaseBtn {
+    margin-top: 30px !important;
+    display: flex;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+}

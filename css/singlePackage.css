@@ -1,0 +1,42 @@
+.packageSectionBody {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 !important;
+}
+.sectionHead {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: mainFont;
+  font-size: 20px;
+}
+.singlePackageBuyBtn {
+  margin-top: 50px;
+}
+.singlePackageFeatures ul {
+  margin: 0;
+  padding: 0;
+}
+.singlePackageFeatures ul li {
+  list-style-type: none;
+}
+.singlePackageFeatures ul li::before {
+  content: "+";
+  margin-right: 10px;
+  font-size: 17px;
+}
+.singlePackageFeatured {
+  background-color: #ececec;
+  padding: 50px 20px !important;
+}
+
+/* Pc screen */
+@media screen and (min-width: 1025px) {
+  .singlePackageFeatured {
+    background-color: #ececec;
+    padding: 50px !important;
+  }
+}

@@ -1,0 +1,35 @@
+.packagesBannerMenu ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.packagesBannerMenu ul li {
+  color: white;
+  border-color: white;
+}
+.packageCategorySection {
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+.packageCategoryPackages {
+  padding-top: 20px;
+}
+.packagesBannerMenu .smallMenu li:hover {
+  text-decoration: underline;
+  color: white;
+}
+/* Pc screen */
+@media screen and (min-width: 578px) {
+  .packagesBannerMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+/* Pc screen */
+@media screen and (min-width: 810px) {
+  .packagesBannerMenu {
+    display: block;
+    width: 100%;
+  }
+}
