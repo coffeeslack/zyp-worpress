@@ -13,7 +13,7 @@
     <!-- ==========
         BODY   
      ===========-->
-     <div class="section blogSection row d-flex align-items-center justify-content-center" style="width: 100%; margin: 0;">
+     <div class="section blogSection row" style="width: 100%; margin: 0;">
         <?php
 
            $args = array(
@@ -35,6 +35,9 @@
                     <a href="<?php the_permalink();?>" class="blogTitle btnLink"><?php the_title(); ?></a>
                     <div class="blogContent mt-2">
                         <?php the_excerpt(); ?>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center blogReadMoreBtn">
+                        <a href="<?php the_permalink(); ?>" class="mainBtn">read more</a>
                     </div>
                 </div>
             </div>
