@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: subFont;
-  src: url(../fonts/Gotham-Medium.ttf);
+  src: url(../fonts/ProductSans-Regular.ttf);
 }
 * {
   box-sizing: border-box;
@@ -159,6 +159,16 @@ p {
   position: relative;
   padding: 25px;
   align-items: center;
+}
+.ErrorBanner {
+  height: 600px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ErrorBanner img {
+  width: 50% !important;
 }
 .bannerSmall {
   height: 200px;
@@ -798,7 +808,7 @@ textarea:focus {
   }
   .contactSectionBody {
     font-size: 20px;
-    width: 30%;
+    width: 40%;
   }
   .contactSectionBody div {
     margin-bottom: 20px;

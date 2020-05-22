@@ -9,7 +9,7 @@
         <!-- package title -->
         <?php the_title(); ?>
         <!--  -->
-        <div class="bannerBtn"><a href="https://paystack.com/pay/zyp-graphic-lite" class="subBtn">BUY NOW &#10141</a></div>
+        <div class="bannerBtn"><a href="<?php echo get_post_meta( $post->ID, "package_checkout_link", true );?>" class="subBtn">BUY NOW &#10141</a></div>
       </div>
     </div>
     <!-- ==========
@@ -60,7 +60,7 @@
       </div>
       <!-- package buy button -->
       <div class="singlePackageBuyBtn">
-        <a href="https://paystack.com/pay/zyp-social-lite" class="mainBtn">BUY NOW &#10141</a>
+        <a href="<?php echo get_post_meta( $post->ID, "package_checkout_link", true );?>" class="mainBtn">BUY NOW &#10141</a>
       </div>
     </div>
 

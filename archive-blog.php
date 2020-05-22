@@ -36,7 +36,7 @@
                     <div class="blogContent mt-2">
                         <?php the_excerpt(); ?>
                     </div>
-                    <div class="d-flex align-items-center justify-content-center blogReadMoreBtn">
+                    <div class="blogReadMoreBtn">
                         <a href="<?php the_permalink(); ?>" class="mainBtn">read more</a>
                     </div>
                 </div>

@@ -1,8 +1,3 @@
-<?php 
-/*
-Template Name: Contact
-*/
-?>
 <?php get_header(); ?>
 <?php if( have_posts() ) : while( have_posts() ): the_post();?>
     <!-- ==========
@@ -61,9 +56,8 @@ Template Name: Contact
             <div class="text-center">
                 <div class="sectionTitle mb-3 mb-lg-5 mt-lg-4" style="text-align: center; width: 100%;">Get In Touch</div>
             </div>
-            <!-- <div class="row"> -->
-            <?php the_content(); ?>
-                <!-- <div class="col-lg-4 mt-3 mt-lg-0">
+            <div class="row">
+                <div class="col-lg-4 mt-3 mt-lg-0">
                     <input type="text" placeholder="Your Name" required>
                 </div>
                 <div class="col-lg-4 mt-3 mt-lg-0">
@@ -77,8 +71,8 @@ Template Name: Contact
                     <div class="text-center mt-4">
                         <button class="mainBtn">SUBMIT</button>
                     </div>
-                </div> -->
-            <!-- </div> -->
+                </div>
+            </div>
         </form>
     </div>
     
