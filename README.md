@@ -91,7 +91,7 @@ Each package can have many features in the custom field
 
 You can also input a feature that a package does not have, but can be found in another package, e.g zyp graphics lite might not offer a YouTube design, but zyp graphics premium can offer it, in that case, it can be inputted in the custom field with a class...i.e
 
-| custom field name | description                                              |
-| ----------------- | -------------------------------------------------------- |
-| package_feature   | e.g <span class="strikeThrough">YouTube</span>           |
-| package_feature   | e.g <span class="strikeThrough">Real time support</span> |
+| custom field name | description                                                  |
+| ----------------- | ------------------------------------------------------------ |
+| package_feature   | e.g `<span class="strikeThrough">`YouTube`</span>`           |
+| package_feature   | e.g `<span class="strikeThrough">`Real time support`</span>` |
