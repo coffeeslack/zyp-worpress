@@ -57,7 +57,7 @@
         ?>
 
         <?php else: ?>
-          <p>Sorry, no posts matched your criteria.</p>
+          <p>Sorry, no blogs to display.</p>
         <?php endif; ?>
 
        

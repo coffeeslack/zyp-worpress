@@ -28,7 +28,7 @@
                 ?>
                   <!-- display each package category in mini menu -->
                   <li>
-                    <a href="http://localhost/zyp/package#zyp_<?php echo $category->slug; ?>">
+                    <a href="#<?php echo $category->slug; ?>">
                       zyp <?php echo $category->name; ?>
                     </a>
                   </li>

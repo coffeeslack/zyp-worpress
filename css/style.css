@@ -555,20 +555,6 @@ p {
 .greenBackground {
   background-color: #c0e741;
 }
-.wpforms-field-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-.wpforms-submit-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.wpforms-field textarea {
-  height: 150px;
-}
 input,
 textarea {
   width: 100%;
